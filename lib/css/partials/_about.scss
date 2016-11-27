@@ -19,15 +19,14 @@
   width: 55%;
 }
 
-.introduction {
-  border-right: 1px solid $white;
-  margin-right: 5px;
+.intro {
+  border-right: 1px solid $off-white-color;
   padding: 0 15px 0 25px;
   width: 44%;
 }
 
 .skills {
-  border-bottom: 1px solid $white;
+  border-bottom: 1px solid $off-white-color;
   margin: 0 12px;
   padding: 0 20px 10px 20px;
 }
@@ -39,12 +38,14 @@
 
 h2 {
   color: $black-accent-color;
+  font-family: $font-lora;
   font-size: 30px;
   margin-bottom: 10px;
 }
 
 p {
   color: $black-accent-color;
+  font-family: $font-source-sans-pro;
   line-height: 36px;
 }
 
@@ -58,12 +59,12 @@ p {
   #about {
     flex-direction: column;
   }
-  .introduction, .credentials {
+  .intro, .credentials {
     width: 100%;
   }
-  .introduction {
+  .intro {
     border: none;
-    border-bottom: 1px solid $white;
+    border-bottom: 1px solid $off-white-color;
     margin: 0 auto;
     padding-bottom: 10px;
     width: 95%;

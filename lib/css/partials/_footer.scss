@@ -1,5 +1,5 @@
 footer {
-  background-color: $white;
+  background-color: #FFF;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -28,6 +28,7 @@ footer ul {
 
 .copyright {
   color: lighten($gray-accent-color, 40%);
+  font-family: $font-source-sans-pro;
   font-size: 14px;
   margin-top: 10px;
 }

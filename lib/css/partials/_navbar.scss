@@ -23,8 +23,10 @@ nav li {
   position: relative;
   a {
     color: $teal-accent-color;
+    font-family: $font-lora;
     font-size: 20px;
     text-decoration: none;
+    transition: 0.3s;
   }
 }
 
@@ -84,6 +86,7 @@ nav li {
 
 .mobile-nav a {
   color: $teal-accent-color;
+  font-family: $font-lora;
   font-size: 30px;
   padding: 10px;
   &:hover {

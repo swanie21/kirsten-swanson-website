@@ -7,7 +7,7 @@ body, html {
   height: 100%;
 }
 
-.container-one, .container-two {
+#introduction, .container-two {
   background-attachment: fixed;
   background-color: $off-white-color;
   background-position: center;
@@ -27,7 +27,7 @@ body, html {
 }
 
 @media screen and (max-width: 770px) {
-  .container-one, .container-two, .container-break {
+  #introduction, .container-two, .container-break {
     width: 100%;
   }
 }

@@ -30,14 +30,21 @@
   }
 }
 
-#portfolio article h1 {
+ h3 {
+  background-color: $teal-accent-color;
+  border-radius: 3px;
   color: $black-accent-color;
+  font-family: $font-lora;
   font-size: 24px;
   line-height: 25px;
+  margin: auto;
+  padding: 10px 0;
   position: absolute;
+  left: 0;
+  right: 0;
+  top: 80px;
   text-align: center;
-  top: 100px;
-  width: 256px;
+  width: 210px;
   z-index: 1;
   &:hover {
     display: none;
@@ -71,8 +78,5 @@
   }
   #portfolio article:last-child {
     margin-bottom: 50px;
-  }
-  #portfolio article h1 {
-    width: 300px;
   }
 }
