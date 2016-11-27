@@ -11,16 +11,16 @@
         <img class="logo" src="./img/swan-logo.svg" alt="logo">
         <ul>
           <li class="website-nav"><a href="#about">About</a></li>
-          <li class="website-nav"><a href="#portfolio">Portfolio</a></li>
+          <li class="website-nav"><a href="#portfolio-link">Portfolio</a></li>
           <li class="website-nav"><a href="#contact">Contact</a></li>
         </ul>
       <div class="overlay" id="phoneNav">
         <a class="close-nav" href="javascript:void(0)" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
           <ul>
-            <li class="mobile-nav"><a href="#about">About</a></li>
-            <li class="mobile-nav"><a href="#portfolio">Portfolio</a></li>
-            <li class="mobile-nav"><a href="#contact">Contact</a></li>
+            <li class="mobile-nav"><a href="#about-link" onclick="closeNav()">About</a></li>
+            <li class="mobile-nav"><a href="#portfolio-link" onclick="closeNav()">Portfolio</a></li>
+            <li class="mobile-nav"><a href="#contact" onclick="closeNav()">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -37,8 +37,9 @@
     <section class="container-two">
     </section>
 
+    <span id="portfolio-link"></span>
     <section id="portfolio">
-      <article class="overlay-content">
+      <article>
         <a href="https://github.com/swanie21/birthday-tracker" target="_blank">
           <span>
             <h1>Birthday Tracker</h1>
@@ -82,6 +83,44 @@
           </span>
         </a>
       </article>
+    </section>
+
+    <span id="about-link"></span>
+    <section id="about">
+      <div class="introduction">
+        <h2>Let me introduce myself</h2>
+        <p>Hi, I'm Kirsten! I'm an adventurous, risk-taker who seeks a creative challenge. I have always been an eager learner who loves to tackle any problem and can quickly assimilate new technologies. My journey into the ever-changing tech world started with my passion to use my creativity in a versatile yet impactful way. Due to my attention-to-detail and organization I'm a stickler for crafting clean code to produce beautifully designed web and mobile applications. My goal is to create memorable user experiences that are accessible to everyone.
+        </p>
+      </div>
+      <div class="credentials">
+        <div class="skills">
+          <h2>Technical Skills</h2>
+          <p>
+            HTML <span class.slash>/</span>
+            CSS <span class.slash>/</span>
+            Sass <span class.slash>/</span>
+            UX/UI Design <span class.slash>/</span>
+            Sketch <span class.slash>/</span>
+            Responsive Design <span class.slash>/</span> JavaScript <span class.slash>/</span>
+            jQuery <span class.slash>/</span>
+            React <span class.slash>/</span>
+            Ember <span class.slash>/</span>
+            TDD <span class.slash>/</span>
+            Git/Github <span class.slash>/</span>
+            DevTools <span class.slash>/</span>
+            Webpack Configuration <span class.slash>/</span>
+            InVision <span class.slash>/</span>
+            WAI-ARIA <span class.slash>/</span>  Wire-framing
+          </p>
+        </div>
+        <div class="education">
+          <h2>Education</h2>
+          <p>B.S. in Marketing at the W.P. Carey School of Business</p>
+          <p>International Business Certificate at the W.P. Carey School of Business</p>
+          <p>Front-End Engineering Certificate from Turing School of Software &amp; Design</p>
+          <p>TESOL Certificate</p>
+        </div>
+      </div>
     </section>
 
     <footer id="contact">

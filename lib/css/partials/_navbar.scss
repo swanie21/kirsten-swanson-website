@@ -71,16 +71,6 @@ nav li {
   }
 }
 
-.mobile-nav a {
-  color: $teal-accent-color;
-  font-size: 30px;
-  padding: 10px;
-  &:hover {
-    color: $off-white-color;
-    transition: 0.3s;
-  }
-}
-
 .close-nav {
   color: $teal-accent-color;
   font-size: 50px;
@@ -89,6 +79,16 @@ nav li {
   text-decoration: none;
   &:hover {
     color: $off-white-color;
+  }
+}
+
+.mobile-nav a {
+  color: $teal-accent-color;
+  font-size: 30px;
+  padding: 10px;
+  &:hover {
+    color: $off-white-color;
+    transition: 0.3s;
   }
 }
 

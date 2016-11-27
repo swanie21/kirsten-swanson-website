@@ -12,6 +12,14 @@
   }
 }
 
+#portfolio-link:before {
+ content: "";
+ display: block;
+ height: 70px;
+ margin-top: -70px;
+ visibility: hidden;
+}
+
 #portfolio article {
   overflow: hidden;
   position: relative;
@@ -42,5 +50,29 @@
   &:hover {
     opacity: 1;
     transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #portfolio {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #portfolio img {
+    height: 300px;
+    width: 300px;
+  }
+  #portfolio article {
+    height: 300px;
+    width: 300px;
+    margin: 10px 0;
+  }
+  #portfolio article:last-child {
+    margin-bottom: 50px;
+  }
+  #portfolio article h1 {
+    width: 300px;
   }
 }

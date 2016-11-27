@@ -27,9 +27,6 @@ body, html {
 }
 
 @media screen and (max-width: 770px) {
-  html {
-    background-color: $white;
-  }
   .container-one, .container-two, .container-break {
     width: 100%;
   }
