@@ -3,7 +3,7 @@
 }
 
 body, html {
-  background-color: lighten($gray-accent-color, 20%);
+  background: url('./img/wood.jpg');
   height: 100%;
 }
 
@@ -16,21 +16,21 @@ body, html {
   margin: auto;
   min-height: 100%;
   position: relative;
-  width: 90%;
+  width: 80%;
 }
 
-article {
+.container-break {
   background-color: $teal-accent-color;
   padding: 30px 20px;
   margin: auto;
-  width: 90%;
+  width: 80%;
 }
 
 @media screen and (max-width: 770px) {
   html {
     background-color: $white;
   }
-  .container-one, .container-two, article {
+  .container-one, .container-two, .container-break {
     width: 100%;
   }
 }

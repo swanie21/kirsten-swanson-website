@@ -1,0 +1,46 @@
+#portfolio {
+  background-color: $off-white-color;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  img {
+    height: 256px;
+    width: 256px;
+  }
+}
+
+#portfolio article {
+  overflow: hidden;
+  position: relative;
+  height: 256px;
+  width: 256px;
+  img {
+    position: absolute;
+  }
+}
+
+#portfolio article h1 {
+  color: $black-accent-color;
+  font-size: 24px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  width: 256px;
+  z-index: 1;
+  &:hover {
+    display: none;
+  }
+}
+
+.color-image {
+  opacity: 0.1;
+  z-index: 1;
+  &:hover {
+    opacity: 1;
+    transition: 0.5s;
+  }
+}
