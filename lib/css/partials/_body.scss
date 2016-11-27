@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: lighten($gray-accent-color, 20%);
+  height: 100%;
+}
+
+.container-one, .container-two {
+  background-attachment: fixed;
+  background-color: $off-white-color;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  min-height: 100%;
+  position: relative;
+  width: 90%;
+}
+
+article {
+  background-color: $teal-accent-color;
+  padding: 30px 20px;
+  margin: auto;
+  width: 90%;
+}
+
+@media screen and (max-width: 770px) {
+  html {
+    background-color: $white;
+  }
+  .container-one, .container-two, article {
+    width: 100%;
+  }
+}
