@@ -28,7 +28,7 @@ nav li {
   }
 }
 
-.hide-on-mobile a:hover {
+.website-nav a:hover {
   color: $off-white-color;
 }
 
@@ -71,7 +71,7 @@ nav li {
   }
 }
 
-.mobile-menu a {
+.mobile-nav a {
   color: $teal-accent-color;
   font-size: 30px;
   padding: 10px;
@@ -81,11 +81,11 @@ nav li {
   }
 }
 
-.close-menu {
+.close-nav {
   color: $teal-accent-color;
   font-size: 50px;
   position: absolute;
-  right: 38px;
+  right: 19px;
   text-decoration: none;
   &:hover {
     color: $off-white-color;
@@ -100,7 +100,7 @@ nav li {
 }
 
 @media screen and (max-width: 500px) {
-  .hide-on-mobile {
+  .website-nav {
     display: none;
   }
   .hamburger-menu {
