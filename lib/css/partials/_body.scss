@@ -3,11 +3,11 @@
 }
 
 body, html {
-  background: url('./img/wood.jpg');
+  background: url('./img/wood.jpg') no-repeat fixed;
   height: 100%;
 }
 
-#introduction, .container-two {
+#introduction, #image {
   background-attachment: fixed;
   background-color: $off-white-color;
   background-position: center;
@@ -19,15 +19,20 @@ body, html {
   width: 80%;
 }
 
+#image {
+  background: url('./img/flower.jpg') no-repeat;
+  background-size: cover;
+}
+
 .container-break {
   background-color: $teal-accent-color;
-  padding: 30px 20px;
+  height: 60px;
   margin: auto;
   width: 80%;
 }
 
 @media screen and (max-width: 770px) {
-  #introduction, .container-two, .container-break {
+  #introduction, #image, .container-break {
     width: 100%;
   }
 }
