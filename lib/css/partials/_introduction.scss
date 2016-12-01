@@ -24,7 +24,7 @@ h1 {
 }
 
 .rotating-words  span:nth-child(2) {
-  @include animation-timing-2s;
+  @include animation-timing-4s;
 }
 
 @media screen and (max-width: 770px) {

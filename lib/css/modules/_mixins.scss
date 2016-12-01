@@ -1,13 +1,13 @@
 @mixin animation-rotation {
-  animation: topToBottom 6s linear infinite 0s;
-  -ms-animation: topToBottom 6s linear infinite 0s;
-  -webkit-animation: topToBottom 6s linear infinite 0s;
+  animation: topToBottom 8s linear infinite 0s;
+  -ms-animation: topToBottom 8s linear infinite 0s;
+  -webkit-animation: topToBottom 8s linear infinite 0s;
 }
 
-@mixin animation-timing-2s {
-  animation-delay: 2.5s;
-  -ms-animation-delay: 2.5s;
-  -webkit-animation-delay: 2.5s;
+@mixin animation-timing-4s {
+  animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  -webkit-animation-delay: 4s;
 }
 
 @mixin rotating-intro-text {
