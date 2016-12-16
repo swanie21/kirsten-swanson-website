@@ -22,7 +22,7 @@ textarea {
 }
 
 .submit-form-button {
-  background: lighten($gray-accent-color, 40%);
+  background: darken($gray-accent-color, 10%);
   border: none;
   border-radius: 3px;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
